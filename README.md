@@ -1,1 +1,1 @@
-# SeGAR-2025-Hololens
+# SeGAR-2025-MetaQuest
