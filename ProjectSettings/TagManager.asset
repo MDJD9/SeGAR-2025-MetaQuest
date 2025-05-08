@@ -13,6 +13,18 @@ TagManager:
   - QDSUIIcon
   - QDSUIToggleButton
   - Slicable
+  - Flour
+  - Whisker
+  - Batter
+  - Paddle
+  - Pancake
+  - Topping
+  - Plate
+  - Pan
+  - Egg
+  - Sugar
+  - Milk
+  - Butter
   layers:
   - Default
   - TransparentFX
