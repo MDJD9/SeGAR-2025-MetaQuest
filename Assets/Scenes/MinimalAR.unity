@@ -12880,10 +12880,10 @@ PrefabInstance:
       addedObject: {fileID: 498430523}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 462c4bf3211b9304abaf098bbc812a9f, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 498430524}
+      addedObject: {fileID: 498430525}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 462c4bf3211b9304abaf098bbc812a9f, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 498430525}
+      addedObject: {fileID: 498430527}
   m_SourcePrefab: {fileID: 100100000, guid: 462c4bf3211b9304abaf098bbc812a9f, type: 3}
 --- !u!4 &498430516 stripped
 Transform:
@@ -12991,23 +12991,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.29767826, y: 0.065776534, z: 0.18}
   m_Center: {x: 0, y: 0.032888267, z: -0.26}
---- !u!114 &498430524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 498430517}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd61e755f1ec11840b4b8c5182aa8790, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  whiskTotalTime: 5
-  progressBar: {fileID: 2081711261}
-  progressBarMultiplier: 0.4
-  enablesBatter: {fileID: 101162972}
-  enablePancake: {fileID: 762449908}
 --- !u!65 &498430525
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13029,6 +13012,25 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.29767826, y: 0.065776534, z: 0.52760893}
   m_Center: {x: 0.000000029802322, y: 0.032888267, z: -0.11496531}
+--- !u!114 &498430527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498430517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205d73e6feccf1c44a8f41589b29b638, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whiskTotalTime: 10
+  progressBarBatter: {fileID: 2081711261}
+  progressBarPancake: {fileID: 93176150}
+  progressBarMultiplier: 0.5
+  enablesBatter: {fileID: 101162972}
+  enablePancake: {fileID: 762449908}
+  disablePancakeText: {fileID: 1575969177}
 --- !u!1 &501453088
 GameObject:
   m_ObjectHideFlags: 0
@@ -35913,10 +35915,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   whiskTotalTime: 10
-  progressBar: {fileID: 1339701654}
+  progressBar: {fileID: 2081711261}
   progressBarMultiplier: 0.01
   enablesBatter: {fileID: 101162972}
-  enablePancake: {fileID: 0}
+  enablePancake: {fileID: 762449908}
 --- !u!65 &1820808688
 BoxCollider:
   m_ObjectHideFlags: 0
