@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/TemporaryScene.unity
     guid: 8fb16b6490d849242bf3c88a56a786ce
-  - enabled: 1
+  - enabled: 0
     path: Assets/StarterSamples/Usage/Passthrough/Scenes/PassthroughAtStartup.unity
     guid: 93f89780874c67a48818816c8407c6c5
+  - enabled: 1
+    path: Assets/Scenes/MinimalAR.unity
+    guid: e395c53a013069e408d3fc9c1a0720e7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e587a07e38928ff40aab32eb22320700, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6bbe4f99d1ef8df49a1b743fd5446932, type: 2}
